@@ -30,6 +30,7 @@ cordova plugin remove co.mylonas.cordova.applicationstate
 
 ### Usage
 ```JavaScript
+// NOTE: this below method can only be called after the cordova device is ready
 window.applicationState.getState(function(state) {
     /*
     Do something within this callback with the retrieved state.
