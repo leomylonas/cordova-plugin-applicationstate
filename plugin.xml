@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		id="co.mylonas.cordova.applicationstate" version="0.0.1">
+	<name>Application State</name>
+	<description>Application State</description>
+
+	<platform name="ios">
+		<js-module src="www/applicationState.js" name="ApplicationState">
+			<clobbers target="applicationState" />
+		</js-module>
+		<config-file target="config.xml" parent="/*">
+			<feature name="ApplicationState">
+				<param name="ios-package" value="ApplicationState" />
+			</feature>
+		</config-file>
+		<header-file src="src/ApplicationState.h" />
+        <source-file src="src/ApplicationState.m" />
+	</platform>
+
+</plugin>
