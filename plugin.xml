@@ -14,6 +14,11 @@
 				<param name="android-package" value="co.mylonas.cordova.applicationstate.ApplicationState" />
 			</feature>
 		</config-file>
+		
+		<config-file target="AndroidManifest.xml" parent="/*">
+			<uses-permission android:name="android.permission.GET_TASKS" />
+		</config-file>
+		
 		<source-file src="src/ApplicationState.java" target-dir="src/co/mylonas/cordova/applicationstate" />
 	</platform>
 	
