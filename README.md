@@ -37,7 +37,7 @@ cordova plugin remove co.mylonas.cordova.applicationstate
  * @param successCallback	- the function to call when the application state is determined
  * @param errorCallback		- the function to call if an error occurs
  */
-window.applicationState.getState(packageName, function(state) {
+window.ApplicationState.getState(packageName, function(state) {
     /*
     Do something within this callback with the retrieved state.
     [state] will be a string with the value of one of:
