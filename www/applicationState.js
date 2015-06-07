@@ -1,5 +1,5 @@
 module.exports = {
-    getState: function(successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "ApplicationState", "getState", []);
+    getState: function(packageName, successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "ApplicationState", "getState", [packageName]);
     }
 };
