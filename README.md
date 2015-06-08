@@ -16,7 +16,7 @@ Attribution — You **must** give appropriate credit, provide a link to the lice
 * Cordova >= 3.0.0
 
 ### Version
-0.0.1
+0.0.2
 
 ### Installation
 ```sh
