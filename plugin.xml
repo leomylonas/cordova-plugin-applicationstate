@@ -4,7 +4,7 @@
 	<name>Application State</name>
 	<description>Application State</description>
 
-	<js-module src="www/ApplicationState.js" name="ApplicationState">
+	<js-module src="www/applicationState.js" name="ApplicationState">
 		<clobbers target="ApplicationState" />
 	</js-module>
 	
