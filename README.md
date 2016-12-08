@@ -47,3 +47,14 @@ window.ApplicationState.getState(packageName, function(state) {
     // do something within this callback if there was an error
 });
 ```
+
+### Description of States
+#### iOS
+- **active:** The app is running in the foreground and currently receiving events. (https://developer.apple.com/reference/uikit/uiapplicationstate/uiapplicationstateactive)
+- **background:** The app is running in the background. (https://developer.apple.com/reference/uikit/uiapplicationstate/uiapplicationstatebackground)
+- **inactive:** The app is running in the foreground but is not receiving events. This might happen as a result of an interruption or because the app is transitioning to or from the background. (https://developer.apple.com/reference/uikit/uiapplicationstate/uiapplicationstateinactive)
+
+#### Android
+(https://developer.android.com/reference/android/app/ActivityManager.RunningTaskInfo.html#topActivity)
+- **active:** The app is the topmost activity
+- **background:** The app is NOT the topmost activity
