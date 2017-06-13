@@ -1,0 +1,31 @@
+{
+  "name": "co.mylonas.cordova.applicationstate",
+  "version": "0.0.2",
+  "description": "applicationstate",
+  "cordova": {
+    "id": "co.mylonas.cordova.applicationstate",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wouter33/cordova-plugin-applicationstate.git"
+  },
+  "keywords": [
+    "applicationstate"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "leomylonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wouter33/cordova-plugin-applicationstate/issues"
+  },
+  "homepage": "https://github.com/Wouter33/cordova-plugin-applicationstate"
+}
