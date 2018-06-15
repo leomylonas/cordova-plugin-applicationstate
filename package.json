@@ -1,9 +1,9 @@
 {
-  "name": "co.mylonas.cordova.applicationstate",
-  "version": "0.0.2",
+  "name": "cordova-plugin-applicationstate",
+  "version": "0.0.3",
   "description": "applicationstate",
   "cordova": {
-    "id": "co.mylonas.cordova.applicationstate",
+    "id": "cordova-plugin-applicationstate",
     "platforms": [
       "ios",
       "android"
